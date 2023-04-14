@@ -39,6 +39,7 @@ Download the script [get-pip.py](https://bootstrap.pypa.io/get-pip.py) then run 
 ## Structure
 - `data/api_responses`: contains data files retrieved from Urban Redevelopment Authority, Land Transport Authority DataMall, OneMap, Singapore Polic Force and 99.co
 - `data/data_ingestion`: contains Jupyter Notebooks detailing the merging of the datasets
+- `data/web_scrape`: contains a Jupyter Notebook used to web scrape ratings for properties
 - `data/Transactions with MRT, Bus, Taxi, Crime, Ratings.csv`: Final dataset obtained after data ingestion
 - `data/X_test.csv` `data/X_train.csv` `data/y_train.csv` `data/y_test.csv`: Data split into their respective train and test sets after preprocessing
 
