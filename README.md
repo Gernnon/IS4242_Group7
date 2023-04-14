@@ -20,7 +20,7 @@ There are some general library requirements for the project and some which are s
 
 The library requirements specific to some methods are:
 
-- `keras` with `TensorFlow` backend for NN.
+- `keras` with `TensorFlow` backend for Neural Network.
 - `xgboost` for XGBoost.
 
 Note: It is recommended to use Anaconda distribution of Python.
@@ -46,3 +46,10 @@ Download the script [get-pip.py](https://bootstrap.pypa.io/get-pip.py) then run 
 - `models`: contains ML models used in this project
 
 ## Usage
+# Linear Regression
+
+# Random Forest
+
+# Neural Network
+
+# XGBoost
