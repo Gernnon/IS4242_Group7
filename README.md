@@ -41,6 +41,6 @@ Download the script [get-pip.py](https://bootstrap.pypa.io/get-pip.py) then run 
 
 - `preprocessing/`: contains EDA & Preprocessing Jupyter Notebook and preprocessing objects to be used during preprocessing
 
-- `models`: contains ML models used
+- `models`: contains ML models used in this project
 
 ## Usage
