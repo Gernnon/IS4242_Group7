@@ -46,10 +46,10 @@ Download the script [get-pip.py](https://bootstrap.pypa.io/get-pip.py) then run 
 - `models`: contains ML models used in this project
 
 ## Usage
-# Linear Regression
+### Linear Regression
 
-# Random Forest
+### Random Forest
 
-# Neural Network
+### Neural Network
 
-# XGBoost
+### XGBoost
