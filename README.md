@@ -25,7 +25,7 @@ Note: It is recommended to use Anaconda distribution of Python.
 
 ## Installation
 
-For a true interactive use of the notebooks you need to install Python, IPython (for notebooks) and the required libraries scikit-learn, matplotlib and numpy. More tips on installing scikit-learn can be found on the [scikit-learn website](https://scikit-learn.sourceforge.net/dev/install.html#installing-an-official-release).
+For a true interactive use of the notebooks you need to install Python, Jupyter Notebook and the required libraries scikit-learn, matplotlib and numpy. More tips on installing scikit-learn can be found on the [scikit-learn website](https://scikit-learn.sourceforge.net/dev/install.html#installing-an-official-release).
 
 Install Python's package installer `pip`  
 Download the script [get-pip.py](https://bootstrap.pypa.io/get-pip.py) then run `$ python get-pip.py` on terminal/command prompt
@@ -34,6 +34,13 @@ Download the script [get-pip.py](https://bootstrap.pypa.io/get-pip.py) then run 
 - example
 
 ## Structure
+- `data/api_responses`: contains data files retrieved from Urban Redevelopment Authority, Land Transport Authority DataMall, OneMap, Singapore Polic Force and 99.co
+- `data/data_ingestion`: contains Jupyter Notebooks detailing the merging of the datasets
+- `data/Transactions with MRT, Bus, Taxi, Crime, Ratings.csv`: Final dataset obtained from data ingestion
+- `data/X_test.csv` `data/X_train.csv` `data/y_train.csv` `data/y_test.csv`: Data split into their respective train and test sets after preprocessing
 
+- `preprocessing/`: contains EDA & Preprocessing Jupyter Notebook and preprocessing objects to be used during preprocessing
+
+- `models`: contains ML models used
 
 ## Usage
