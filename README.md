@@ -12,14 +12,14 @@ This project aims to accurately forecast property prices in Singapore to assist 
 
 There are some general library requirements for the project and some which are specific to individual methods. The general requirements are as follows.
 
-numpy
-scikit-learn
-scipy
+- numpy
+- scikit-learn
+- scipy
 
 The library requirements specific to some methods are:
 
-keras with TensorFlow backend for NN.
-xgboost for XGBoost.
+- keras with TensorFlow backend for NN.
+- xgboost for XGBoost.
 
 ## Installation
 
