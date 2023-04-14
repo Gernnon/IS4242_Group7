@@ -16,6 +16,7 @@ There are some general library requirements for the project and some which are s
 - `scikit-learn`
 - `scipy`
 - `seaborn`
+- `matplotlib`
 
 The library requirements specific to some methods are:
 
