@@ -33,12 +33,13 @@ Install Python's package installer `pip`
 Download the script [get-pip.py](https://bootstrap.pypa.io/get-pip.py) then run `$ python get-pip.py` on terminal/command prompt
 
 `pip install` the following libraries and modules
-- example
+- `selenium`
+- `webdriver_manager`
 
 ## Structure
 - `data/api_responses`: contains data files retrieved from Urban Redevelopment Authority, Land Transport Authority DataMall, OneMap, Singapore Polic Force and 99.co
 - `data/data_ingestion`: contains Jupyter Notebooks detailing the merging of the datasets
-- `data/Transactions with MRT, Bus, Taxi, Crime, Ratings.csv`: Final dataset obtained from data ingestion
+- `data/Transactions with MRT, Bus, Taxi, Crime, Ratings.csv`: Final dataset obtained after data ingestion
 - `data/X_test.csv` `data/X_train.csv` `data/y_train.csv` `data/y_test.csv`: Data split into their respective train and test sets after preprocessing
 
 - `preprocessing/`: contains EDA & Preprocessing Jupyter Notebook and preprocessing objects to be used during preprocessing
