@@ -37,7 +37,7 @@ Download the script [get-pip.py](https://bootstrap.pypa.io/get-pip.py) then run 
 - `webdriver_manager`
 
 ## Structure
-- `data/api_responses`: contains data files retrieved from Urban Redevelopment Authority, Land Transport Authority DataMall, OneMap, Singapore Polic Force and 99.co
+- `data/api_responses`: contains data files retrieved from Urban Redevelopment Authority, Land Transport Authority and OneMap
 - `data/data_ingestion`: contains Jupyter Notebooks detailing the merging of the datasets
 - `data/web_scrape`: contains a Jupyter Notebook used to web scrape ratings for properties
 - `data/Transactions with MRT, Bus, Taxi, Crime, Ratings.csv`: Final dataset obtained after data ingestion
@@ -48,10 +48,4 @@ Download the script [get-pip.py](https://bootstrap.pypa.io/get-pip.py) then run 
 - `models`: contains ML models used in this project
 
 ## Usage
-### Linear Regression
-
-### Random Forest
-
-### Neural Network
-
-### XGBoost
+Before running the notebooks, ensure that all required libraries have been installed and required datafiles are in the same working directory as the notebooks.
